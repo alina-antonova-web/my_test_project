@@ -1,8 +1,2 @@
 test test test
 asd asd
-test test test
-qwe
-qwe qwe qwe qwe qwe
-asd
-asd sd
-asd asd asd asd asd

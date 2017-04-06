@@ -1,22 +1,29 @@
 import shlex
 import subprocess
+from subprocess import PIPE
 
 
-# Exported functions
+from constance import *
+
+
 def run_script(command_line):
     args = shlex.split(command_line)
-    out = subprocess.run(args)
-    return out.returncode
+    out = subprocess.run(args, stdout=PIPE)
+    output_text = out.stdout.decode('utf-8').replace('\n', '')
+    if output_text:
+        output_text = eval(output_text)
+    return out.returncode, output_text
 
 
 def test_vocabulary(file_name):
-    command_line = "/usr/bin/python3.5 /home/alina/my_test_project/make_vocabulary.py " + file_name
+    command_line = "python " + MAIN_SCRIPT_PATH + " " + file_name
     return run_script(command_line)
 
 
 # Test function for module
 def _test():
-    assert test_vocabulary('fileNotExist') == 1
+    assert test_vocabulary(BAD_FILE)[0] == ERROR_CODE
+    assert test_vocabulary(GOOD_FILE)[1] == GOOD_ANSWER
 
 if __name__ == '__main__':
     _test()
