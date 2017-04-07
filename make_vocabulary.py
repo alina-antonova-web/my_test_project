@@ -1,7 +1,7 @@
 import sys
 import logging
 
-from constance import *
+from constants import *
 
 
 logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s', level=logging.DEBUG, filename=LOG_FILE_NAME)

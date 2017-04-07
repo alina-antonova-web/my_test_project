@@ -1,7 +1,9 @@
-from sct.tests import test_common
+from sct.tests.test_common import *
 
 
-if test_common.test_vocabulary('/home/alina/my_test_project/sct/tests/test_negative/permission_denied_file.txt') == 3:
+file_name = TESTS_DIR + '/test_negative/permission_denied_file.txt'
+
+if test_vocabulary(file_name) == ERROR_CODE:
     exit(0)
 else:
-    exit(1)
+    exit(ERROR_CODE)

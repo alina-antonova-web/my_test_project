@@ -1,7 +1,7 @@
-from sct.tests import test_common
+from sct.tests.test_common import *
 
 
-if test_common.test_vocabulary('/home/alina/my_test_project/') == 2:
+if test_vocabulary('/home/alina/my_test_project/') == ERROR_CODE:
     exit(0)
 else:
     exit(1)

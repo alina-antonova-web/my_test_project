@@ -1,7 +1,7 @@
-from sct.tests import test_common
+from sct.tests.test_common import *
 
 
-if test_common.test_vocabulary('') == 1:
+if test_vocabulary('') == ERROR_CODE:
     exit(0)
 else:
-    exit(1)
+    exit(ERROR_CODE)

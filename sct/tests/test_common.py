@@ -1,18 +1,26 @@
 import shlex
 import subprocess
-from subprocess import PIPE
+import logging
 
 
-from constance import *
+from constants import *
 
 
 def run_script(command_line):
     args = shlex.split(command_line)
-    out = subprocess.run(args, stdout=PIPE)
-    output_text = out.stdout.decode('utf-8').replace('\n', '')
+    proc = subprocess.Popen(args, stdout=subprocess.PIPE)
+    try:
+        outs, errs = proc.communicate()
+    except Exception as e:
+        logging.error('Failed.', exc_info=e)
+        proc.kill()
+        outs, errs = proc.communicate()
+
+    output = proc.returncode
+    output_text = outs.decode('utf-8').replace('\n', '')
     if output_text:
-        output_text = eval(output_text)
-    return out.returncode, output_text
+        output = eval(output_text)
+    return output
 
 
 def test_vocabulary(file_name):
@@ -22,8 +30,8 @@ def test_vocabulary(file_name):
 
 # Test function for module
 def _test():
-    assert test_vocabulary(BAD_FILE)[0] == ERROR_CODE
-    assert test_vocabulary(GOOD_FILE)[1] == GOOD_ANSWER
+    assert test_vocabulary(BAD_FILE) == ERROR_CODE
+    assert test_vocabulary(GOOD_FILE) == GOOD_ANSWER
 
 if __name__ == '__main__':
     _test()

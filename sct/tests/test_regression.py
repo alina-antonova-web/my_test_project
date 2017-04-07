@@ -1,5 +1,4 @@
-from sct.tests import test_common
-from constance import *
+from sct.tests.test_common import *
 
 
 def make_tests(test_files):
@@ -8,7 +7,7 @@ def make_tests(test_files):
     count_bad_tests = 0
 
     for test in test_files:
-        if test_common.run_script('python ' + TESTS_DIR + test):
+        if run_script('python ' + TESTS_DIR + test):
             answer += 'Test with ' + test + ' does not work\n'  # TODO: Delete copy-paste. Make a function to run list of tests
             count_bad_tests += 1
         else:
@@ -26,6 +25,4 @@ def make_tests(test_files):
 list_of_tests = ['test_positive/test_positive.py', 'test_negative/test_empty_file.py', 'test_negative/test_dir.py',
                  'test_negative/test_permission.py']
 print(make_tests(list_of_tests))
-
-
 
