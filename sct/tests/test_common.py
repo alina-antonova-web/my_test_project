@@ -8,6 +8,7 @@ from constants import *
 
 def run_script(command_line):
     args = shlex.split(command_line)
+
     proc = subprocess.Popen(args, stdout=subprocess.PIPE)
     try:
         outs, errs = proc.communicate()
@@ -17,9 +18,14 @@ def run_script(command_line):
         outs, errs = proc.communicate()
 
     output = proc.returncode
-    output_text = outs.decode('utf-8').replace('\n', '')
+    output_text = outs.decode('utf-8').replace('\n', '')   # TODO: Extract to function
     if output_text:
-        output = eval(output_text)
+        try:
+            output = eval(output_text)
+        except Exception as e:
+            logging.error('Failed.', exc_info=e)
+            output = e
+
     return output
 
 

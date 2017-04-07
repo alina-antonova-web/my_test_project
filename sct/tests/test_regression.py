@@ -8,7 +8,7 @@ def make_tests(test_files):
 
     for test in test_files:
         if run_script('python ' + TESTS_DIR + test):
-            answer += 'Test with ' + test + ' does not work\n'  # TODO: Delete copy-paste. Make a function to run list of tests
+            answer += 'Test with ' + test + ' does not work\n'
             count_bad_tests += 1
         else:
             count_good_tests += 1

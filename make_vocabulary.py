@@ -14,6 +14,7 @@ def take_file_name():
     except Exception as e:
         logging.error('Failed.', exc_info=e)
         exit(ERROR_CODE)
+        raise
     return file_name
 
 
@@ -50,4 +51,8 @@ def make_vocabulary():
     return vocabulary
 
 if __name__ == '__main__':
-    assert make_vocabulary()
+    try:
+        make_vocabulary()
+    except Exception as e:
+        print(e)
+        exit(ERROR_CODE)
