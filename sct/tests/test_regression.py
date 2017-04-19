@@ -1,28 +1,34 @@
 from sct.tests.test_common import *
 
 
-def make_tests(test_files):
+def run_regression(test_files):  # TODO: Split in run_tests and print_result
     answer = ' '
     count_good_tests = 0
     count_bad_tests = 0
+    failed_tests = ''
 
     for test in test_files:
+        print('Executing test: ' + test)
         if run_script('python ' + TESTS_DIR + test):
-            answer += 'Test with ' + test + ' does not work\n'
+            failed_tests += 'Test with ' + test + ' FAILED\n'
             count_bad_tests += 1
+            print("  FAILED")
         else:
             count_good_tests += 1
 
-    if answer == ' ':
-        answer = 'All ' + str(count_good_tests) + ' tests was Ok'
+    if count_bad_tests == 0:
+        answer = 'All ' + str(count_good_tests) + ' tests have PASSED'
     else:
         if count_good_tests:
-            answer += 'But ' + str(count_good_tests) + ' tests was good.'
-        answer = str(count_bad_tests) + ' test was not good.\n' + answer
+            answer += str(count_good_tests) + ' tests PASSED.'
+        answer += '\n\n' + str(count_bad_tests) + ' tests FAILED:\n' + failed_tests
 
     return answer
 
-list_of_tests = ['test_positive/test_positive.py', 'test_negative/test_empty_file.py', 'test_negative/test_dir.py',
+list_of_tests = ['test_positive/test_positive.py',
+                 'test_negative/test_empty_file.py',
+                 'test_negative/test_dir.py',
                  'test_negative/test_permission.py']
-print(make_tests(list_of_tests))
+
+print(run_regression(list_of_tests))
 

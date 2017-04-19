@@ -1,7 +1,10 @@
+# -*- encoding: utf-8 -*-
+
 import sys
 import logging
 
 from constants import *
+from count_words import *
 
 
 logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s', level=logging.DEBUG, filename=LOG_FILE_NAME)
@@ -26,33 +29,20 @@ def read_file(file_name):
         logging.error('Failed.', exc_info=e)
         exit(ERROR_CODE)
     else:
-        text = file.readlines()
+        text = file.read()
         file.close()
     return text
-
-
-def find_words(text):
-    words = {}
-    for line in text:
-        line = line.replace('\n', '')
-        for word in line.split(' '):
-            if word in words:
-                words[word] += 1
-            else:
-                words[word] = 1
-    return words
 
 
 def make_vocabulary():
     file = take_file_name()
     text = read_file(file)
-    vocabulary = find_words(text)
-    print(vocabulary)
+    vocabulary = count_words(text)
     return vocabulary
 
 if __name__ == '__main__':
     try:
         make_vocabulary()
     except Exception as e:
-        print(e)
+        logging.error('Failed.', exc_info=e)
         exit(ERROR_CODE)
