@@ -1,13 +1,7 @@
 # -*- encoding: utf-8 -*-
-
 import sys
-import logging
 
-from constants import *
 from count_words import *
-
-
-logging.basicConfig(format=u'%(levelname)-8s [%(asctime)s] %(message)s', level=logging.DEBUG, filename=LOG_FILE_NAME)
 
 
 def take_file_name():
@@ -42,7 +36,7 @@ def make_vocabulary():
 
 if __name__ == '__main__':
     try:
-        make_vocabulary()
+        print(make_vocabulary())
     except Exception as e:
         logging.error('Failed.', exc_info=e)
         exit(ERROR_CODE)

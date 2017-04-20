@@ -1,8 +1,19 @@
 from sct.tests.test_common import *
 
 
-def run_regression(test_files):  # TODO: Split in run_tests and print_result
-    answer = ' '
+def print_result(count_good_tests, count_bad_tests, failed_tests):
+    result = '\n'
+    if count_bad_tests == 0:
+        result = 'All ' + str(count_good_tests) + ' tests have PASSED'
+    else:
+        if count_good_tests:
+            result += str(count_good_tests) + ' tests PASSED.'
+        result += '\n\n' + str(count_bad_tests) + ' tests FAILED:\n' + failed_tests
+    print(result)
+    return result
+
+
+def run_regression(test_files):
     count_good_tests = 0
     count_bad_tests = 0
     failed_tests = ''
@@ -16,19 +27,15 @@ def run_regression(test_files):  # TODO: Split in run_tests and print_result
         else:
             count_good_tests += 1
 
-    if count_bad_tests == 0:
-        answer = 'All ' + str(count_good_tests) + ' tests have PASSED'
-    else:
-        if count_good_tests:
-            answer += str(count_good_tests) + ' tests PASSED.'
-        answer += '\n\n' + str(count_bad_tests) + ' tests FAILED:\n' + failed_tests
+    result = print_result(count_good_tests, count_bad_tests, failed_tests)
 
-    return answer
+    return result
 
-list_of_tests = ['test_positive/test_positive.py',
-                 'test_negative/test_empty_file.py',
-                 'test_negative/test_dir.py',
-                 'test_negative/test_permission.py']
 
-print(run_regression(list_of_tests))
+if __name__ == '__main__':
+    list_of_tests = ['test_positive/test_positive.py',
+                     'test_negative/test_empty_file.py',
+                     'test_negative/test_dir.py',
+                     'test_negative/test_permission.py']
 
+    run_regression(list_of_tests)

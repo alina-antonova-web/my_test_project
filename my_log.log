@@ -1,370 +1,249 @@
-ERROR    [2017-04-07 11:37:44,222] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 23, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-07 11:37:47,875] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 13, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-07 11:37:47,924] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 23, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-07 11:37:47,970] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 23, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-07 11:40:05,746] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 13, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-07 11:40:05,796] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 23, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-07 11:40:05,839] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 23, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-07 13:22:16,423] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 24, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-07 13:22:21,254] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 13, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-07 13:22:21,317] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 24, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-07 13:22:21,392] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 24, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-07 13:22:26,969] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 13, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-12 11:28:19,728] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 13, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-12 11:28:19,812] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 24, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-12 11:28:19,913] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 24, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-13 11:03:28,357] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 24, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: '/home/alina/my_test_projecttext'
-ERROR    [2017-04-13 11:05:50,609] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 24, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: '/home/alina/my_test_projecttext'
-ERROR    [2017-04-13 11:05:50,633] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 24, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: '/home/alina/my_test_projecttext'
-ERROR    [2017-04-19 12:18:32,032] Failed.
+ERROR    [2017-04-20 11:01:37,769] Failed.
 Traceback (most recent call last):
   File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
     file_name = sys.argv[1]
 IndexError: list index out of range
-ERROR    [2017-04-19 12:18:43,625] Failed.
+ERROR    [2017-04-20 11:01:37,840] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:01:37,915] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:02:53,759] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:02:53,843] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:02:53,916] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:03:09,070] Failed.
 Traceback (most recent call last):
   File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 12:19:12,340] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: '/home/alina/my_test_projecttext'
-ERROR    [2017-04-19 22:46:18,990] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 22:48:07,377] Failed.
+ERROR    [2017-04-20 11:04:04,717] Failed.
 Traceback (most recent call last):
   File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 22:50:17,124] Failed.
+ERROR    [2017-04-20 11:05:00,884] Failed.
 Traceback (most recent call last):
   File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 22:50:50,561] Failed.
+ERROR    [2017-04-20 11:05:19,414] Failed.
 Traceback (most recent call last):
   File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 22:52:09,866] Failed.
+ERROR    [2017-04-20 11:05:25,917] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:05:25,993] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:05:26,078] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:06:02,834] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:06:02,907] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:06:02,979] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:14:32,073] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:14:32,145] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:14:32,218] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:14:53,339] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:14:53,417] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:14:53,487] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:15:10,675] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:15:10,750] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:15:10,836] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:15:47,692] Failed.
 Traceback (most recent call last):
   File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 22:53:20,656] Failed.
+ERROR    [2017-04-20 11:16:04,346] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:16:04,421] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:16:04,500] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:16:18,624] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:16:42,990] Failed.
 Traceback (most recent call last):
   File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 22:55:04,211] Failed.
+ERROR    [2017-04-20 11:17:09,838] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:17:09,925] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:17:09,998] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:17:16,659] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:17:35,694] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:17:39,543] Failed.
 Traceback (most recent call last):
   File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 23:00:59,290] Failed.
+ERROR    [2017-04-20 11:17:44,740] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-20 11:17:44,817] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
+ERROR    [2017-04-20 11:17:44,891] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+ERROR    [2017-04-20 11:22:53,123] Failed.
 Traceback (most recent call last):
   File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 23:06:15,965] Failed.
+ERROR    [2017-04-20 11:27:22,291] Failed. Empty text
+ERROR    [2017-04-20 11:28:46,428] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 11:32:55,266] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 11:33:41,360] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 11:34:23,278] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 11:35:11,324] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 11:35:30,693] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 11:53:23,775] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 12:05:33,428] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-20 12:06:52,799] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-20 12:07:09,256] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 12:07:16,780] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-20 12:08:08,213] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 12:08:08,214] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-20 12:16:03,450] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-20 12:32:53,603] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-20 12:34:03,513] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-20 12:34:40,686] Failed. Empty list of words in sort_popular_list(words)
+INFO     [2017-04-20 12:34:56,290] Output_text: [('test', 3), ('asd', 2)]
+INFO     [2017-04-20 12:34:56,347] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
+INFO     [2017-04-20 12:35:01,799] Output_text: [('test', 3), ('asd', 2)]
+INFO     [2017-04-20 12:35:01,860] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
+INFO     [2017-04-20 12:35:01,866] Output_text: 
+ERROR    [2017-04-20 12:35:01,961] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
+  File "/home/alina/my_test_project/make_vocabulary.py", line 10, in take_file_name
     file_name = sys.argv[1]
 IndexError: list index out of range
-ERROR    [2017-04-19 23:07:01,681] Failed.
+INFO     [2017-04-20 12:35:01,966] Output_text: 
+INFO     [2017-04-20 12:35:01,973] Output_text: 
+ERROR    [2017-04-20 12:35:02,039] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 23:08:24,002] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 23:08:48,193] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 23:08:54,550] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: '/home/alina/my_test_projecttext'
-ERROR    [2017-04-19 23:09:16,924] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-19 23:09:26,537] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: '/home/alina/my_test_projecttext'
-ERROR    [2017-04-19 23:09:52,150] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: '/home/alina/my_test_projecttext'
-ERROR    [2017-04-19 23:12:33,242] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 2] No such file or directory: '/home/alina/my_test_projecttext'
-ERROR    [2017-04-19 23:44:37,001] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:44:37,128] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:44:37,283] Failed.
+INFO     [2017-04-20 12:35:02,044] Output_text: 
+INFO     [2017-04-20 12:35:02,051] Output_text: 
+ERROR    [2017-04-20 12:35:02,117] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:46:22,266] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:46:22,345] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:46:22,415] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:52:58,558] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:52:58,630] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:52:58,710] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:53:16,097] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:53:16,170] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:53:16,251] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:54:11,606] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:54:11,680] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:54:11,750] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:55:38,621] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:55:38,694] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:55:38,758] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:57:15,885] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:57:15,970] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:57:16,040] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:58:11,085] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:58:11,159] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:58:11,232] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:58:47,637] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:58:47,717] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:58:47,792] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:59:33,203] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:59:33,286] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:59:33,356] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-19 23:59:55,535] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-19 23:59:55,619] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-19 23:59:55,693] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 00:02:50,782] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 00:02:50,869] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 00:02:50,938] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
+INFO     [2017-04-20 12:35:02,123] Output_text: 
+INFO     [2017-04-20 12:35:02,130] Output_text: 

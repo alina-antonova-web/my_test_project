@@ -1,7 +1,5 @@
 import shlex
 import subprocess
-import logging
-
 
 from constants import *
 
@@ -32,7 +30,6 @@ def run_script(command_line):
     if output_text:
         output = parse_text(output_text)
 
-    #  print(output)
     return output
 
 
@@ -44,7 +41,7 @@ def test_vocabulary(file_name):
 # Test function for module
 def _test():
     assert test_vocabulary(BAD_FILE) == ERROR_CODE
-    assert test_vocabulary(GOOD_FILE) == GOOD_ANSWER
+    assert test_vocabulary(GOOD_FILE) == GOOD_ANSWER, 'Result: ' + str(test_vocabulary(GOOD_FILE)) + '  ==  ' + str(GOOD_ANSWER)
 
 if __name__ == '__main__':
     _test()
