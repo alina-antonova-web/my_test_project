@@ -3,7 +3,7 @@ import doctest
 from constants import *
 
 
-def sort_popular_list(words):   # TODO: Add UT + alphabet sorting of words
+def sort_popular_list(words):
     """
     The function of sorting words by quantity and alphabet
 

@@ -247,3 +247,45 @@ Traceback (most recent call last):
 IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
 INFO     [2017-04-20 12:35:02,123] Output_text: 
 INFO     [2017-04-20 12:35:02,130] Output_text: 
+INFO     [2017-04-20 12:45:55,417] Output_text: [('test', 3), ('asd', 2)]
+INFO     [2017-04-20 12:45:55,467] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
+ERROR    [2017-04-20 12:46:21,544] Failed. Empty text in count_words(text)
+ERROR    [2017-04-20 12:46:21,545] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-20 14:26:29,872] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-20 14:26:29,878] Output_text: 
+ERROR    [2017-04-20 14:30:52,261] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-20 14:30:52,266] Output_text: 
+INFO     [2017-04-20 14:34:49,541] Output_text: [('test', 3), ('asd', 2)]
+INFO     [2017-04-20 14:34:49,597] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
+INFO     [2017-04-20 14:35:56,918] Output_text: [('test', 3), ('asd', 2)]
+INFO     [2017-04-20 14:35:56,969] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
+INFO     [2017-04-20 14:35:56,975] Output_text: 
+ERROR    [2017-04-20 14:35:57,040] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-20 14:35:57,045] Output_text: 
+INFO     [2017-04-20 14:35:57,053] Output_text: 
+ERROR    [2017-04-20 14:35:57,118] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-20 14:35:57,124] Output_text: 
+INFO     [2017-04-20 14:35:57,131] Output_text: 
+ERROR    [2017-04-20 14:35:57,188] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-20 14:35:57,194] Output_text: 
+INFO     [2017-04-20 14:35:57,201] Output_text: 

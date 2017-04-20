@@ -20,7 +20,7 @@ def run_regression(test_files):
 
     for test in test_files:
         print('Executing test: ' + test)
-        if run_script('python ' + TESTS_DIR + test):
+        if run_script('python ' + DIR_OF_FILE_OPERATIONS_TESTS + test):
             failed_tests += 'Test with ' + test + ' FAILED\n'
             count_bad_tests += 1
             print("  FAILED")
