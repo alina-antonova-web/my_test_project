@@ -28,15 +28,18 @@ def read_file(file_name):
     return text
 
 
-def make_vocabulary():
+def read_text_from_file():
     file = take_file_name()
     text = read_file(file)
-    vocabulary = count_words(text)
-    return vocabulary
+    text = text.replace('\t', ' ')
+    text = ' '.join(text.split('\n'))
+    # vocabulary = count_words(text)
+    # return vocabulary
+    return text
 
 if __name__ == '__main__':
     try:
-        print(make_vocabulary())
+        print(read_text_from_file())
     except Exception as e:
         logging.error('Failed.', exc_info=e)
         exit(ERROR_CODE)

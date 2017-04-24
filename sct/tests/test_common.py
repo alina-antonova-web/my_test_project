@@ -24,7 +24,7 @@ def run_script(command_line):
         outs, errs = proc.communicate()
 
     output = proc.returncode
-    output_text = outs.decode('utf-8').replace('\n', '')
+    output_text = outs.decode('utf-8')
 
     logging.info('Output_text: ' + output_text)
     if output_text:
@@ -33,15 +33,19 @@ def run_script(command_line):
     return output
 
 
-def test_vocabulary(file_name):
-    command_line = "python " + MAIN_SCRIPT_PATH + " " + file_name
-    return run_script(command_line)
+def run_reading_text_from_file(file_name):
+    command_line = "python " + FILE_READING_SCRIPT_PATH + " " + file_name
+    text = run_script(command_line)
+    if type(text) != int:
+        text = text.replace('\n', ' ')
+        text = ' '.join(text.split())
+    return text
 
 
 # Test function for module
 def _test():
-    assert test_vocabulary(BAD_FILE) == ERROR_CODE
-    assert test_vocabulary(GOOD_FILE) == GOOD_ANSWER, 'Result: ' + str(test_vocabulary(GOOD_FILE)) + '  ==  ' + str(GOOD_ANSWER)
+    assert run_reading_text_from_file(BAD_FILE_FOR_TEST) == ERROR_CODE
+    assert run_reading_text_from_file(GOOD_FILE_FOR_TEST) == GOOD_TEST_ANSWER, 'Result: ' + run_reading_text_from_file(GOOD_FILE_FOR_TEST) + '  ==  ' + str(GOOD_TEST_ANSWER)
 
 if __name__ == '__main__':
     _test()

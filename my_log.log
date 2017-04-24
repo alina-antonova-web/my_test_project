@@ -1,291 +1,691 @@
-ERROR    [2017-04-20 11:01:37,769] Failed.
+ERROR    [2017-04-21 11:57:43,143] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:01:37,840] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:01:37,915] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:02:53,759] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:02:53,843] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:02:53,916] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:03:09,070] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-20 11:04:04,717] Failed.
+INFO     [2017-04-21 11:57:43,149] Output_text: 
+INFO     [2017-04-21 11:57:43,195] Output_text: test test testasd asd
+INFO     [2017-04-21 11:57:43,247] Output_text: test test testasd asd
+ERROR    [2017-04-21 11:59:40,647] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-20 11:05:00,884] Failed.
+INFO     [2017-04-21 11:59:40,653] Output_text: 
+INFO     [2017-04-21 11:59:40,705] Output_text: test test testasd asd
+INFO     [2017-04-21 11:59:40,760] Output_text: test test testasd asd
+ERROR    [2017-04-21 12:00:17,277] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-20 11:05:19,414] Failed.
+INFO     [2017-04-21 12:00:17,283] Output_text: 
+INFO     [2017-04-21 12:00:17,332] Output_text: test test testasd asdtest test testasd asd
+INFO     [2017-04-21 12:00:17,381] Output_text: test test testasd asdtest test testasd asd
+ERROR    [2017-04-21 12:06:05,466] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-21 12:06:50,172] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-20 11:05:25,917] Failed.
+INFO     [2017-04-21 12:06:50,178] Output_text: 
+INFO     [2017-04-21 12:06:50,231] Output_text: test test test asd asd
+INFO     [2017-04-21 12:06:50,282] Output_text: test test test asd asd
+ERROR    [2017-04-21 12:07:14,292] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:05:25,993] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:05:26,078] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:06:02,834] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:06:02,907] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:06:02,979] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:14:32,073] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:14:32,145] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:14:32,218] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:14:53,339] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:14:53,417] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:14:53,487] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:15:10,675] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:15:10,750] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:15:10,836] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:15:47,692] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-20 11:16:04,346] Failed.
+INFO     [2017-04-21 12:07:14,298] Output_text: 
+INFO     [2017-04-21 12:07:14,348] Output_text: test test testasd asd
+INFO     [2017-04-21 12:07:14,397] Output_text: test test testasd asd
+ERROR    [2017-04-21 12:08:04,640] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:16:04,421] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:16:04,500] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:16:18,624] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:16:42,990] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-20 11:17:09,838] Failed.
+INFO     [2017-04-21 12:08:04,645] Output_text: 
+INFO     [2017-04-21 12:08:04,695] Output_text: test test testasd asd
+INFO     [2017-04-21 12:08:04,753] Output_text: test test testasd asd
+ERROR    [2017-04-21 12:08:43,087] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:17:09,925] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:17:09,998] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:17:16,659] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:17:35,694] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:17:39,543] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-20 11:17:44,740] Failed.
+INFO     [2017-04-21 12:08:43,093] Output_text: 
+INFO     [2017-04-21 12:08:43,141] Output_text: test test test asd asd
+INFO     [2017-04-21 12:11:12,935] Output_text: test test test asd asd
+INFO     [2017-04-21 12:11:12,986] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+ERROR    [2017-04-21 12:11:42,261] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 16, in take_file_name
-    file_name = sys.argv[1]
-IndexError: list index out of range
-ERROR    [2017-04-20 11:17:44,817] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-ERROR    [2017-04-20 11:17:44,891] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-ERROR    [2017-04-20 11:22:53,123] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 27, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 2] No such file or directory: 'fileNotExist'
-ERROR    [2017-04-20 11:27:22,291] Failed. Empty text
-ERROR    [2017-04-20 11:28:46,428] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 11:32:55,266] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 11:33:41,360] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 11:34:23,278] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 11:35:11,324] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 11:35:30,693] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 11:53:23,775] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 12:05:33,428] Failed. Empty list of words in sort_popular_list(words)
-ERROR    [2017-04-20 12:06:52,799] Failed. Empty list of words in sort_popular_list(words)
-ERROR    [2017-04-20 12:07:09,256] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 12:07:16,780] Failed. Empty list of words in sort_popular_list(words)
-ERROR    [2017-04-20 12:08:08,213] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 12:08:08,214] Failed. Empty list of words in sort_popular_list(words)
-ERROR    [2017-04-20 12:16:03,450] Failed. Empty list of words in sort_popular_list(words)
-ERROR    [2017-04-20 12:32:53,603] Failed. Empty list of words in sort_popular_list(words)
-ERROR    [2017-04-20 12:34:03,513] Failed. Empty list of words in sort_popular_list(words)
-ERROR    [2017-04-20 12:34:40,686] Failed. Empty list of words in sort_popular_list(words)
-INFO     [2017-04-20 12:34:56,290] Output_text: [('test', 3), ('asd', 2)]
-INFO     [2017-04-20 12:34:56,347] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
-INFO     [2017-04-20 12:35:01,799] Output_text: [('test', 3), ('asd', 2)]
-INFO     [2017-04-20 12:35:01,860] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
-INFO     [2017-04-20 12:35:01,866] Output_text: 
-ERROR    [2017-04-20 12:35:01,961] Failed.
+INFO     [2017-04-21 12:11:42,267] Output_text: 
+INFO     [2017-04-21 12:11:42,319] Output_text: test test test asd asd
+ERROR    [2017-04-21 12:11:54,890] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 10, in take_file_name
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 2] No such file or directory: 'fileNotExist'
+INFO     [2017-04-21 12:11:54,898] Output_text: 
+INFO     [2017-04-21 12:11:54,940] Output_text: test test test asd asd
+ERROR    [2017-04-21 12:12:08,859] Failed. Empty text in count_words(text)
+INFO     [2017-04-21 12:13:08,824] Output_text: test test test asd asd
+INFO     [2017-04-21 12:13:08,878] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-21 12:13:22,676] Output_text: test test test asd asd
+INFO     [2017-04-21 12:13:22,728] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-21 12:13:22,735] Output_text: 
+ERROR    [2017-04-21 12:13:22,797] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
     file_name = sys.argv[1]
 IndexError: list index out of range
-INFO     [2017-04-20 12:35:01,966] Output_text: 
-INFO     [2017-04-20 12:35:01,973] Output_text: 
-ERROR    [2017-04-20 12:35:02,039] Failed.
+INFO     [2017-04-21 12:13:22,803] Output_text: 
+INFO     [2017-04-21 12:13:22,811] Output_text: 
+ERROR    [2017-04-21 12:13:22,877] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/'
-INFO     [2017-04-20 12:35:02,044] Output_text: 
-INFO     [2017-04-20 12:35:02,051] Output_text: 
-ERROR    [2017-04-20 12:35:02,117] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
-    file = open(file_name, FILE_OPEN_MODE)
-IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests//test_negative/permission_denied_file.txt'
-INFO     [2017-04-20 12:35:02,123] Output_text: 
-INFO     [2017-04-20 12:35:02,130] Output_text: 
-INFO     [2017-04-20 12:45:55,417] Output_text: [('test', 3), ('asd', 2)]
-INFO     [2017-04-20 12:45:55,467] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
-ERROR    [2017-04-20 12:46:21,544] Failed. Empty text in count_words(text)
-ERROR    [2017-04-20 12:46:21,545] Failed. Empty list of words in sort_popular_list(words)
-ERROR    [2017-04-20 14:26:29,872] Failed.
-Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
-INFO     [2017-04-20 14:26:29,878] Output_text: 
-ERROR    [2017-04-20 14:30:52,261] Failed.
+INFO     [2017-04-21 12:13:22,883] Output_text: 
+INFO     [2017-04-21 12:13:22,890] Output_text: 
+ERROR    [2017-04-21 12:13:22,953] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
-INFO     [2017-04-20 14:30:52,266] Output_text: 
-INFO     [2017-04-20 14:34:49,541] Output_text: [('test', 3), ('asd', 2)]
-INFO     [2017-04-20 14:34:49,597] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
-INFO     [2017-04-20 14:35:56,918] Output_text: [('test', 3), ('asd', 2)]
-INFO     [2017-04-20 14:35:56,969] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1)]
-INFO     [2017-04-20 14:35:56,975] Output_text: 
-ERROR    [2017-04-20 14:35:57,040] Failed.
+INFO     [2017-04-21 12:13:22,958] Output_text: 
+INFO     [2017-04-21 12:13:22,965] Output_text: 
+INFO     [2017-04-21 12:14:47,413] Output_text: test test test asd asd
+INFO     [2017-04-21 12:14:47,466] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-21 12:14:47,473] Output_text: 
+ERROR    [2017-04-21 12:14:47,536] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 10, in take_file_name
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
     file_name = sys.argv[1]
 IndexError: list index out of range
-INFO     [2017-04-20 14:35:57,045] Output_text: 
-INFO     [2017-04-20 14:35:57,053] Output_text: 
-ERROR    [2017-04-20 14:35:57,118] Failed.
+INFO     [2017-04-21 12:14:47,542] Output_text: 
+INFO     [2017-04-21 12:14:47,550] Output_text: 
+ERROR    [2017-04-21 12:14:47,614] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
-INFO     [2017-04-20 14:35:57,124] Output_text: 
-INFO     [2017-04-20 14:35:57,131] Output_text: 
-ERROR    [2017-04-20 14:35:57,188] Failed.
+INFO     [2017-04-21 12:14:47,621] Output_text: 
+INFO     [2017-04-21 12:14:47,627] Output_text: 
+ERROR    [2017-04-21 12:14:47,698] Failed.
 Traceback (most recent call last):
-  File "/home/alina/my_test_project/make_vocabulary.py", line 21, in read_file
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
     file = open(file_name, FILE_OPEN_MODE)
 IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
-INFO     [2017-04-20 14:35:57,194] Output_text: 
-INFO     [2017-04-20 14:35:57,201] Output_text: 
+INFO     [2017-04-21 12:14:47,703] Output_text: 
+INFO     [2017-04-21 12:14:47,710] Output_text: 
+INFO     [2017-04-21 12:22:52,236] Output_text: test test test asd asd
+INFO     [2017-04-21 12:24:01,822] Output_text: test test test asd asd
+INFO     [2017-04-21 12:24:55,893] Output_text: test test test asd asd
+INFO     [2017-04-21 12:24:55,944] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-21 12:27:05,293] Output_text: test test test asd asd
+INFO     [2017-04-21 12:27:05,338] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-21 13:46:42,758] Output_text: test test test asd asd
+INFO     [2017-04-21 13:46:42,818] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-21 13:48:54,418] Output_text: test test test asd asd
+INFO     [2017-04-21 13:48:54,465] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-21 13:48:54,472] Output_text: 
+ERROR    [2017-04-21 13:48:54,538] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-21 13:48:54,544] Output_text: 
+INFO     [2017-04-21 13:48:54,549] Output_text: 
+ERROR    [2017-04-21 13:48:54,611] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-21 13:48:54,617] Output_text: 
+INFO     [2017-04-21 13:48:54,624] Output_text: 
+ERROR    [2017-04-21 13:48:54,704] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-21 13:48:54,711] Output_text: 
+INFO     [2017-04-21 13:48:54,718] Output_text: 
+INFO     [2017-04-21 13:49:04,512] Output_text: test test test asd asd
+INFO     [2017-04-21 13:49:04,562] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-21 13:49:04,568] Output_text: 
+ERROR    [2017-04-21 13:49:04,634] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-21 13:49:04,640] Output_text: 
+INFO     [2017-04-21 13:49:04,648] Output_text: 
+ERROR    [2017-04-21 13:49:04,716] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-21 13:49:04,721] Output_text: 
+INFO     [2017-04-21 13:49:04,729] Output_text: 
+ERROR    [2017-04-21 13:49:04,797] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-21 13:49:04,802] Output_text: 
+INFO     [2017-04-21 13:49:04,809] Output_text: 
+INFO     [2017-04-21 13:49:15,978] Output_text: test test test asd asd
+INFO     [2017-04-21 13:49:16,025] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-21 13:49:16,032] Output_text: 
+ERROR    [2017-04-21 13:49:16,101] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-21 13:49:16,107] Output_text: 
+INFO     [2017-04-21 13:49:16,115] Output_text: 
+ERROR    [2017-04-21 13:49:16,178] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-21 13:49:16,185] Output_text: 
+INFO     [2017-04-21 13:49:16,192] Output_text: 
+ERROR    [2017-04-21 13:49:16,255] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-21 13:49:16,261] Output_text: 
+INFO     [2017-04-21 13:49:16,268] Output_text: 
+INFO     [2017-04-21 13:59:04,612] Output_text: test test test asd asd
+INFO     [2017-04-21 13:59:04,669] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:09:40,119] Output_text: test test test asd asd
+INFO     [2017-04-24 10:09:40,222] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:09:40,226] Output_text: 
+ERROR    [2017-04-24 10:09:40,295] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 10:09:40,301] Output_text: 
+INFO     [2017-04-24 10:09:40,308] Output_text: 
+ERROR    [2017-04-24 10:09:40,372] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 10:09:40,377] Output_text: 
+INFO     [2017-04-24 10:09:40,384] Output_text: 
+ERROR    [2017-04-24 10:09:40,466] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 10:09:40,472] Output_text: 
+INFO     [2017-04-24 10:09:40,477] Output_text: 
+INFO     [2017-04-24 10:09:49,165] Output_text: test test test asd asd
+INFO     [2017-04-24 10:09:49,214] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:31:14,538] Output_text: test test test asd asd
+INFO     [2017-04-24 10:31:14,585] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:32:38,425] Output_text: test test test asd asd
+INFO     [2017-04-24 10:32:38,475] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:32:48,772] Output_text: test test test asd asd
+INFO     [2017-04-24 10:32:48,820] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:32:48,827] Output_text: 
+ERROR    [2017-04-24 10:32:48,892] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 10:32:48,897] Output_text: 
+INFO     [2017-04-24 10:32:48,903] Output_text: 
+ERROR    [2017-04-24 10:32:48,976] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 10:32:48,984] Output_text: 
+INFO     [2017-04-24 10:32:48,990] Output_text: 
+ERROR    [2017-04-24 10:32:49,055] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 10:32:49,060] Output_text: 
+INFO     [2017-04-24 10:32:49,067] Output_text: 
+INFO     [2017-04-24 10:33:41,686] Output_text: test test test asd asd
+INFO     [2017-04-24 10:33:41,730] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:38:06,066] Output_text: test test test asd asd
+INFO     [2017-04-24 10:38:06,114] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:38:06,120] Output_text: 
+ERROR    [2017-04-24 10:38:06,186] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 10:38:06,191] Output_text: 
+INFO     [2017-04-24 10:38:06,198] Output_text: 
+ERROR    [2017-04-24 10:38:06,261] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 10:38:06,266] Output_text: 
+INFO     [2017-04-24 10:38:06,272] Output_text: 
+ERROR    [2017-04-24 10:38:06,331] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 10:38:06,336] Output_text: 
+INFO     [2017-04-24 10:38:06,343] Output_text: 
+INFO     [2017-04-24 10:38:16,771] Output_text: test test test asd asd
+INFO     [2017-04-24 10:38:16,817] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:39:11,289] Output_text: test test test asd asd
+INFO     [2017-04-24 10:39:11,340] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+ERROR    [2017-04-24 10:49:40,858] Failed. Empty text in count_words(text)
+ERROR    [2017-04-24 10:50:30,701] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 10:50:30,701] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 10:50:30,702] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-24 10:51:06,101] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 10:51:06,101] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 10:51:06,102] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-24 10:51:22,136] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 10:51:22,136] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 10:51:51,134] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 10:58:25,181] Output_text: test test test asd asd
+INFO     [2017-04-24 10:58:25,225] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:58:25,232] Output_text: 
+ERROR    [2017-04-24 10:58:25,314] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 10:58:25,321] Output_text: 
+INFO     [2017-04-24 10:58:25,327] Output_text: 
+ERROR    [2017-04-24 10:58:25,396] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 10:58:25,406] Output_text: 
+INFO     [2017-04-24 10:58:25,410] Output_text: 
+ERROR    [2017-04-24 10:58:25,474] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 10:58:25,480] Output_text: 
+INFO     [2017-04-24 10:58:25,485] Output_text: 
+INFO     [2017-04-24 10:58:25,581] Output_text: test test test asd asd
+INFO     [2017-04-24 10:58:25,639] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:58:25,648] Output_text: Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/file1.txtTest count words PASSED Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/textTest count words PASSED 
+INFO     [2017-04-24 10:58:56,741] Output_text: test test test asd asd
+INFO     [2017-04-24 10:58:56,791] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:58:56,798] Output_text: 
+ERROR    [2017-04-24 10:58:56,875] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 10:58:56,882] Output_text: 
+INFO     [2017-04-24 10:58:56,888] Output_text: 
+ERROR    [2017-04-24 10:58:56,952] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 10:58:56,958] Output_text: 
+INFO     [2017-04-24 10:58:56,967] Output_text: 
+ERROR    [2017-04-24 10:58:57,031] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 10:58:57,037] Output_text: 
+INFO     [2017-04-24 10:58:57,044] Output_text: 
+INFO     [2017-04-24 10:58:57,149] Output_text: test test test asd asd
+INFO     [2017-04-24 10:58:57,200] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 10:58:57,212] Output_text: Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/file1.txtTest count words PASSED Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/textTest count words PASSED 
+INFO     [2017-04-24 11:01:23,681] Output_text: test test test asd asd
+INFO     [2017-04-24 11:01:23,733] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 11:01:23,740] Output_text: 
+ERROR    [2017-04-24 11:01:23,809] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 11:01:23,815] Output_text: 
+INFO     [2017-04-24 11:01:23,820] Output_text: 
+ERROR    [2017-04-24 11:01:23,884] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 11:01:23,893] Output_text: 
+INFO     [2017-04-24 11:01:23,900] Output_text: 
+ERROR    [2017-04-24 11:01:23,971] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 11:01:23,978] Output_text: 
+INFO     [2017-04-24 11:01:23,983] Output_text: 
+INFO     [2017-04-24 11:01:24,091] Output_text: test test test asd asd
+INFO     [2017-04-24 11:01:24,145] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 11:01:24,156] Output_text: Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/file1.txtTest count words PASSED Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/textTest count words PASSED 
+INFO     [2017-04-24 11:02:03,640] Output_text: test test test asd asd
+INFO     [2017-04-24 11:02:03,691] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 11:02:03,698] Output_text: 
+ERROR    [2017-04-24 11:02:03,760] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 11:02:03,765] Output_text: 
+INFO     [2017-04-24 11:02:03,772] Output_text: 
+ERROR    [2017-04-24 11:02:03,861] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 11:02:03,868] Output_text: 
+INFO     [2017-04-24 11:02:03,873] Output_text: 
+ERROR    [2017-04-24 11:02:03,933] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 11:02:03,939] Output_text: 
+INFO     [2017-04-24 11:02:03,944] Output_text: 
+INFO     [2017-04-24 11:02:04,045] Output_text: test test test asd asd
+INFO     [2017-04-24 11:02:04,100] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 11:02:04,112] Output_text: Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/file1.txtTest count words PASSED Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/textTest count words PASSED 
+INFO     [2017-04-24 11:03:16,114] Output_text: test test test asd asd
+INFO     [2017-04-24 11:03:16,158] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 11:03:16,164] Output_text: 
+ERROR    [2017-04-24 11:03:16,231] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 11:03:16,236] Output_text: 
+INFO     [2017-04-24 11:03:16,242] Output_text: 
+ERROR    [2017-04-24 11:03:16,301] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 11:03:16,307] Output_text: 
+INFO     [2017-04-24 11:03:16,314] Output_text: 
+ERROR    [2017-04-24 11:03:16,373] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 11:03:16,378] Output_text: 
+INFO     [2017-04-24 11:03:16,386] Output_text: 
+INFO     [2017-04-24 11:03:16,486] Output_text: test test test asd asd
+INFO     [2017-04-24 11:03:16,536] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+INFO     [2017-04-24 11:03:16,545] Output_text: Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/file1.txtTest count words PASSED Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/textTest count words PASSED 
+ERROR    [2017-04-24 11:06:38,165] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 2] No such file or directory: 'fileNotExist'
+INFO     [2017-04-24 11:06:38,170] Output_text: 
+ERROR    [2017-04-24 11:09:21,711] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 2] No such file or directory: 'fileNotExist'
+INFO     [2017-04-24 11:09:21,716] Output_text: 
+INFO     [2017-04-24 11:09:21,769] Output_text: test test test asd asd
+
+INFO     [2017-04-24 11:09:21,824] Output_text: test test test asd asd
+
+ERROR    [2017-04-24 11:16:27,021] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 2] No such file or directory: 'fileNotExist'
+INFO     [2017-04-24 11:16:27,026] Output_text: 
+INFO     [2017-04-24 11:16:27,081] Output_text: test test test asd asd
+
+ERROR    [2017-04-24 11:17:29,211] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 2] No such file or directory: 'fileNotExist'
+INFO     [2017-04-24 11:17:29,216] Output_text: 
+INFO     [2017-04-24 11:17:29,261] Output_text: test test test asd asd
+
+INFO     [2017-04-24 11:17:57,195] Output_text: test test test asd asd
+
+INFO     [2017-04-24 11:17:57,244] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 11:17:57,251] Output_text: 
+ERROR    [2017-04-24 11:17:57,321] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 11:17:57,329] Output_text: 
+INFO     [2017-04-24 11:17:57,335] Output_text: 
+ERROR    [2017-04-24 11:17:57,398] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 11:17:57,404] Output_text: 
+INFO     [2017-04-24 11:17:57,410] Output_text: 
+ERROR    [2017-04-24 11:17:57,467] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 11:17:57,473] Output_text: 
+INFO     [2017-04-24 11:17:57,479] Output_text: 
+INFO     [2017-04-24 11:17:57,573] Output_text: test test test asd asd
+
+INFO     [2017-04-24 11:17:57,626] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 11:17:57,636] Output_text: Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/file1.txt
+Test count words PASSED 
+
+Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/text
+Test count words PASSED 
+
+
+INFO     [2017-04-24 11:19:11,313] Output_text: test test test asd asd
+
+INFO     [2017-04-24 11:19:11,364] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 11:19:11,370] Output_text: 
+ERROR    [2017-04-24 11:19:11,434] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 11:19:11,439] Output_text: 
+INFO     [2017-04-24 11:19:11,446] Output_text: 
+ERROR    [2017-04-24 11:19:11,504] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 21] Is a directory: '/home/alina/my_test_project/sct/tests/basic_file_operations/'
+INFO     [2017-04-24 11:19:11,509] Output_text: 
+INFO     [2017-04-24 11:19:11,517] Output_text: 
+ERROR    [2017-04-24 11:19:11,581] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 21, in read_file
+    file = open(file_name, FILE_OPEN_MODE)
+IOError: [Errno 13] Permission denied: '/home/alina/my_test_project/sct/tests/basic_file_operations/test_data/permission_denied_file.txt'
+INFO     [2017-04-24 11:19:11,586] Output_text: 
+INFO     [2017-04-24 11:19:11,593] Output_text: 
+INFO     [2017-04-24 11:19:11,692] Output_text: test test test asd asd
+
+INFO     [2017-04-24 11:19:11,743] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 11:19:11,754] Output_text: Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/file1.txt
+Test count words PASSED 
+
+Executing test: /home/alina/my_test_project/sct/tests/basic_file_operations/test_data/text
+Test count words PASSED 
+
+
+ERROR    [2017-04-24 11:24:04,826] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-24 11:25:26,487] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-24 11:25:26,529] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+ERROR    [2017-04-24 11:25:26,530] Failed.
+Traceback (most recent call last):
+  File "/home/alina/my_test_project/read_text_from_file.py", line 10, in take_file_name
+    file_name = sys.argv[1]
+IndexError: list index out of range
+INFO     [2017-04-24 11:46:42,489] Output_text: test test test asd asd
+
+INFO     [2017-04-24 11:46:42,539] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 11:59:36,771] Output_text: test test test asd asd
+
+INFO     [2017-04-24 11:59:36,818] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 11:59:36,868] Output_text: [('test', 3), ('asd', 2), [('test test', 4), ('asd asd', 2)]]
+
+INFO     [2017-04-24 12:00:15,702] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:00:15,748] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:00:15,795] Output_text: [('test', 3), ('asd', 2), [('test test', 4), ('asd asd', 2)]]
+
+INFO     [2017-04-24 12:00:15,845] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 8), ('asdf asdf', 6), ('qwert qwert', 6), ('test test', 4), ('yxc yxc', 4), ('asd asd', 2)]]
+
+INFO     [2017-04-24 12:02:48,803] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:03:38,899] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+ERROR    [2017-04-24 12:10:31,715] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 12:10:31,716] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 12:15:10,574] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 12:15:10,575] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 12:15:52,867] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 12:15:52,878] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 12:18:26,929] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-24 12:18:45,538] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-24 12:23:00,053] Failed. Empty list of words in sort_popular_list(words)
+ERROR    [2017-04-24 12:23:15,296] Failed. Empty text or words list in count_expressions
+ERROR    [2017-04-24 12:23:15,296] Failed. Empty text or words list in count_expressions
+INFO     [2017-04-24 12:23:36,770] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:23:36,820] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:23:36,876] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 12:23:36,927] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 12:27:05,102] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:27:05,154] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:27:05,202] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 12:27:05,256] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 12:27:56,174] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:27:56,225] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:27:56,272] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 12:27:56,325] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 12:28:17,875] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:28:17,928] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:28:17,972] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 12:28:18,023] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 12:29:52,579] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:29:52,630] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:29:52,681] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 12:29:52,729] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 12:31:02,952] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:31:03,002] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:31:03,049] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 12:31:03,106] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 12:32:28,243] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:32:42,703] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:32:42,754] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:32:42,799] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 12:32:42,849] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 12:35:34,834] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:35:34,881] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:35:34,930] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 12:35:34,974] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 12:36:09,176] Output_text: test test test asd asd
+
+INFO     [2017-04-24 12:36:09,224] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 12:36:09,274] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 12:36:09,323] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 13:52:47,388] Output_text: test test test asd asd
+
+INFO     [2017-04-24 13:52:47,439] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 13:52:47,509] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 13:52:47,559] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+
+INFO     [2017-04-24 13:54:22,491] Output_text: test test test asd asd
+
+INFO     [2017-04-24 13:54:22,538] Output_text: test test test qwe asd asd yxc yxc yxc qwert qwert qwert qwert asdf asdf asdf asdf yxcvb yxcvb yxcvb yxcvb yxcvb
+
+INFO     [2017-04-24 13:54:22,588] Output_text: [('test', 3), ('asd', 2), [('test test', 2)]]
+
+INFO     [2017-04-24 13:54:22,635] Output_text: [('yxcvb', 5), ('asdf', 4), ('qwert', 4), ('test', 3), ('yxc', 3), ('asd', 2), ('qwe', 1), [('yxcvb yxcvb', 4), ('asdf asdf', 3), ('qwert qwert', 3), ('test test', 2), ('yxc yxc', 2)]]
+

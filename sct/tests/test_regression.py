@@ -13,7 +13,9 @@ def print_result(count_good_tests, count_bad_tests, failed_tests):
     return result
 
 
-def run_regression(test_files):
+def run_basic_file_regression(test_files):
+    print('Basic file operations tests:')
+
     count_good_tests = 0
     count_bad_tests = 0
     failed_tests = ''
@@ -32,10 +34,23 @@ def run_regression(test_files):
     return result
 
 
-if __name__ == '__main__':
-    list_of_tests = ['test_positive/test_positive.py',
-                     'test_negative/test_empty_file.py',
-                     'test_negative/test_dir.py',
-                     'test_negative/test_permission.py']
+def run_test_words_counter():
+    print('\nCount words tests:\n')
+    dir_of_test_words_counter = DIR_OF_TESTS_FILES + u'test_words_counter/test_words_counter.py'
+    answer = run_script('python ' + dir_of_test_words_counter)
+    answer = answer.split('\n')
 
-    run_regression(list_of_tests)
+    for line in answer:
+        print(line)
+
+    return ''
+
+
+if __name__ == '__main__':
+    list_of_basic_file_tests = ['test_positive/test_positive.py',
+                                'test_negative/test_empty_file.py',
+                                'test_negative/test_dir.py',
+                                'test_negative/test_permission.py']
+
+    run_basic_file_regression(list_of_basic_file_tests)
+    run_test_words_counter()
